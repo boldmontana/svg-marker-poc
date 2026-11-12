@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200">
+  <title>L8W5 marker</title>
+  <rect x="0" y="0" width="300" height="200" fill="#7a3ff2"/>
+  <text x="150" y="60" font-size="24" fill="#ffffff" text-anchor="middle">L8W5-EXEC</text>
+  <rect id="exec-proof" x="60" y="90" width="180" height="70" fill="#ffd400" stroke="#111111" stroke-width="3"/>
+  <text id="exec-proof-label" x="150" y="132" font-size="20" fill="#111111" text-anchor="middle">script-ran</text>
+  <script type="text/javascript"><![CDATA[
+    (function () {
+      var MARK = 'L8W5-SVG-EXEC';
+      try { document.title = MARK; } catch (e) {}
+      try { window.name = MARK; } catch (e) {}
+      var r = document.getElementById('exec-proof');
+      if (r) { r.setAttribute('fill', '#00e676'); }
+      var t = document.getElementById('exec-proof-label');
+      if (t) { t.textContent = 'script-ran-confirmed'; }
+    })();
+  ]]></script>
+</svg>
